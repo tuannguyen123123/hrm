@@ -51,7 +51,7 @@ public class TimesheetRestApiController extends BaseController<TimesheetsDto> {
 		return timesheetService;
 	}
 
-	// Danh sách time sheet theo user
+	// D
 	@RequestMapping(value = "/find", method = RequestMethod.POST)
 	public String getListTimesheet(@RequestBody @Valid TimesheetsDto timesheetsDto, HttpServletRequest request,
 			BindingResult result) {
